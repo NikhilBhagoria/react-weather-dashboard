@@ -11,8 +11,7 @@ export const WeatherProvider = ({ children }) => {
   const [unit, setUnit] = useState('celsius');
   const [forecastData, setForecastData] = useState(null);
 
-  const API_KEY = 'e83b3c4c08285bf87b99f9bbc0abe3f0'; // Replace with your OpenWeatherMap API key
-
+  const API_KEY = import.meta.env.VITE_API_KEY;
   const fetchWeatherData = async (cityName) => {
     try {
       const response = await fetch(
@@ -30,23 +29,6 @@ export const WeatherProvider = ({ children }) => {
     } catch (err) {
       setError(err.message);
       setWeatherData(null);
-    }
-  };
-
-  const fetchForecast = async (cityName) => {
-    try {
-      const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${API_KEY}&units=metric`
-      );
-      
-      if (!response.ok) {
-        throw new Error('Forecast data not available');
-      }
-
-      const data = await response.json();
-      setForecastData(data);
-    } catch (err) {
-      console.error('Error fetching forecast:', err);
     }
   };
 
