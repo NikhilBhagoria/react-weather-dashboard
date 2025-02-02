@@ -37,7 +37,7 @@ A modern weather dashboard built with React that displays current weather condit
 ```bash
 git clone https://github.com/yourusername/react-weather-dashboard.git
 ```
-    
+
 2. Navigate to the project directory:
 ```bash
 cd react-weather-dashboard
@@ -118,7 +118,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Your Name - [@NikhilBhagoria](https://x.com/NikhilBhagoria)
 
-Project Link: [https://github.com/yourusername/react-weather-dashboard](https://github.com/yourusername/react-weather-dashboard)
+Project Link: [https://github.com/NikhilBhagoria/react-weather-dashboard](https://github.com/NikhilBhagoria/react-weather-dashboard)
 
