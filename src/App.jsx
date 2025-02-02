@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { WeatherProvider } from './context/WeatherContext'
-import SearchBar from './components/SearchBar'
-import WeatherDisplay from './components/WeatherDisplay'
-import ErrorMessage from './components/ErrorMessage'
+import SearchBar from './components/SearchBar/SearchBar'
+import WeatherDisplay from './components/WeatherDisplay/WeatherDisplay'
+import ErrorMessage from './components/ErrorMessage/ErrorMessage'
 import './App.css'
 
 function App() {
