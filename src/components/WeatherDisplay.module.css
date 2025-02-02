@@ -1,0 +1,99 @@
+.weatherDisplay {
+  background: linear-gradient(to bottom, rgba(73, 89, 160, 0.8), rgba(73, 89, 160, 0.6));
+  border-radius: 20px;
+  padding: 2rem;
+  color: white;
+  backdrop-filter: blur(10px);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.location {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.location h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.location p {
+  margin: 0.2rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.mainWeather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.currentTemp {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tempNumber {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.unitToggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.weatherDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherIcon {
+  width: 80px;
+  height: 80px;
+}
+
+.weatherStats {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.forecastDay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dayName {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.smallIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.dayTemp {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+} 

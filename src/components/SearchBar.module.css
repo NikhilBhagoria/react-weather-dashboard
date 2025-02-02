@@ -1,0 +1,27 @@
+.searchBar {
+  margin-bottom: 2rem;
+}
+
+.searchBar input {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  width: 300px;
+  backdrop-filter: blur(10px);
+}
+
+.searchBar input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.searchBar input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.searchBar button {
+  display: none;
+} 
