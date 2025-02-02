@@ -1,4 +1,4 @@
-import { useWeather } from '../context/WeatherContext';
+import { useWeather } from '../../context/WeatherContext';
 import styles from './WeatherDisplay.module.css';
 
 const WeatherDisplay = () => {

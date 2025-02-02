@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useWeather } from '../context/WeatherContext';
+import { useWeather } from '../../context/WeatherContext';
 import styles from './SearchBar.module.css';
 
 const SearchBar = () => {
